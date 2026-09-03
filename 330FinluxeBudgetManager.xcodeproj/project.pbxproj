@@ -34,6 +34,17 @@
 		E2AB87C4659427EEB15E5298 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A09B8A16E0D8C1CB653937 /* SettingsView.swift */; };
 		E3F4A5B6C7D8091A2B3C4D5E /* AmountFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B6C7D8E9012A3B4C5D6E /* AmountFormat.swift */; };
 		E6F7A8B9C0D1234A5B6C7D8E /* ManageSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8B9C0D1E2345A6B7C8D9E /* ManageSheets.swift */; };
+		C0BF01C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */; };
+		C0BF02C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */; };
+		C0BF03C1A2B3D4E5F6071803 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */; };
+		C0BF04C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A104C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift */; };
+		C0BF05C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A105C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift */; };
+		C0BF06C1A2B3D4E5F6071806 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A106C1A2B3D4E5F6071806 /* LaunchSessionStore.swift */; };
+		C0BF07C1A2B3D4E5F6071807 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A107C1A2B3D4E5F6071807 /* LaunchStagingState.swift */; };
+		C0BF08C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A108C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift */; };
+		C0BF09C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */; };
+		C0BF10C1A2B3D4E5F6071810 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */; };
+		C0BF11C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +84,17 @@
 		F7A8B9C0D1E2345A6B7C8D9E /* ManageSheets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManageSheets.swift; sourceTree = "<group>"; };
 		FA0D1CF75C53043691762631 /* Pods_330FinluxeBudgetManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_330FinluxeBudgetManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D70698A4A29375301211B /* ExpenseEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpenseEditorView.swift; sourceTree = "<group>"; };
+		C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		C0A104C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		C0A105C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		C0A106C1A2B3D4E5F6071806 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		C0A107C1A2B3D4E5F6071807 /* LaunchStagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		C0A108C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +143,27 @@
 			children = (
 				CE1D67CC5A9936E2DB4E53D6 /* AppDelegate.swift */,
 				D8C177FB52C798954F45800A /* SceneDelegate.swift */,
+				C0C000C1A2B3D4E5F6071800 /* LaunchFlow */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		C0C000C1A2B3D4E5F6071800 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */,
+				C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */,
+				C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */,
+				C0A104C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift */,
+				C0A105C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift */,
+				C0A106C1A2B3D4E5F6071806 /* LaunchSessionStore.swift */,
+				C0A107C1A2B3D4E5F6071807 /* LaunchStagingState.swift */,
+				C0A108C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift */,
+				C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */,
+				C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */,
+				C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		4E7D015686D14803862ABF30 /* Pods */ = {
@@ -371,6 +412,17 @@
 				C5D6E7F8A9B0123A4B5C6D7E /* FinanceUI.swift in Sources */,
 				E6F7A8B9C0D1234A5B6C7D8E /* ManageSheets.swift in Sources */,
 				A7B8C9D0E1F2345A6B7C8D9E /* UIKitChrome.swift in Sources */,
+				C0BF01C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift in Sources */,
+				C0BF02C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift in Sources */,
+				C0BF03C1A2B3D4E5F6071803 /* LaunchDestination.swift in Sources */,
+				C0BF04C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift in Sources */,
+				C0BF05C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift in Sources */,
+				C0BF06C1A2B3D4E5F6071806 /* LaunchSessionStore.swift in Sources */,
+				C0BF07C1A2B3D4E5F6071807 /* LaunchStagingState.swift in Sources */,
+				C0BF08C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift in Sources */,
+				C0BF09C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift in Sources */,
+				C0BF10C1A2B3D4E5F6071810 /* RootWindowPresenter.swift in Sources */,
+				C0BF11C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dem.f1nl8xb8dg;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
@@ -427,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dem.f1nl8xb8dg;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
