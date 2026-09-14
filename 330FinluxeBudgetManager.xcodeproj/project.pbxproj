@@ -26,14 +26,6 @@
 		A7B8C9D0E1F2345A6B7C8D9E /* UIKitChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9D0E1F2345A6B7C8D9E0 /* UIKitChrome.swift */; };
 		AD4E2C0587E5E4302E52EC64 /* ConsoleIconRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B9DB6EA057A64C1430922 /* ConsoleIconRail.swift */; };
 		B78AB1C8C108EA5A020FE710 /* TaskEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52867DD30A6AC072FC9EF1 /* TaskEditorView.swift */; };
-		C1D2E3F4A5B60718293C4D5E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F3A4B5C60718293D4E5F /* StatsView.swift */; };
-		C5D6E7F8A9B0123A4B5C6D7E /* FinanceUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E7F8A9B0C1234A5B6C7D8E /* FinanceUI.swift */; };
-		CE2E0C38511A5187E07EF74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF3CD38419CE5385F09EDF /* Assets.xcassets */; };
-		D04DED859E375E6318E9540C /* AppReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816752A8DDCC63D1A9F8DA8 /* AppReviewService.swift */; };
-		D367499F581E6132B3019E95 /* FocusModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A04C3F7D7257883A149FC /* FocusModels.swift */; };
-		E2AB87C4659427EEB15E5298 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A09B8A16E0D8C1CB653937 /* SettingsView.swift */; };
-		E3F4A5B6C7D8091A2B3C4D5E /* AmountFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B6C7D8E9012A3B4C5D6E /* AmountFormat.swift */; };
-		E6F7A8B9C0D1234A5B6C7D8E /* ManageSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8B9C0D1E2345A6B7C8D9E /* ManageSheets.swift */; };
 		C0BF01C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */; };
 		C0BF02C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */; };
 		C0BF03C1A2B3D4E5F6071803 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */; };
@@ -45,6 +37,14 @@
 		C0BF09C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */; };
 		C0BF10C1A2B3D4E5F6071810 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */; };
 		C0BF11C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */; };
+		C1D2E3F4A5B60718293C4D5E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F3A4B5C60718293D4E5F /* StatsView.swift */; };
+		C5D6E7F8A9B0123A4B5C6D7E /* FinanceUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E7F8A9B0C1234A5B6C7D8E /* FinanceUI.swift */; };
+		CE2E0C38511A5187E07EF74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF3CD38419CE5385F09EDF /* Assets.xcassets */; };
+		D04DED859E375E6318E9540C /* AppReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816752A8DDCC63D1A9F8DA8 /* AppReviewService.swift */; };
+		D367499F581E6132B3019E95 /* FocusModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A04C3F7D7257883A149FC /* FocusModels.swift */; };
+		E2AB87C4659427EEB15E5298 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A09B8A16E0D8C1CB653937 /* SettingsView.swift */; };
+		E3F4A5B6C7D8091A2B3C4D5E /* AmountFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B6C7D8E9012A3B4C5D6E /* AmountFormat.swift */; };
+		E6F7A8B9C0D1234A5B6C7D8E /* ManageSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8B9C0D1E2345A6B7C8D9E /* ManageSheets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,17 +73,6 @@
 		B773AF1ECE0BE5A8FD66B4C5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8C9D0E1F2345A6B7C8D9E0 /* UIKitChrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIKitChrome.swift; sourceTree = "<group>"; };
 		BDE449CF29FD75CCA60BADCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C816752A8DDCC63D1A9F8DA8 /* AppReviewService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppReviewService.swift; sourceTree = "<group>"; };
-		CE1D67CC5A9936E2DB4E53D6 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1E2F3A4B5C60718293D4E5F /* StatsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
-		D29D25629C5781044391EE20 /* AppDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
-		D6E7F8A9B0C1234A5B6C7D8E /* FinanceUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceUI.swift; sourceTree = "<group>"; };
-		D8C177FB52C798954F45800A /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAD35DE7ADB3EEC2398D3766 /* TasksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
-		F4A5B6C7D8E9012A3B4C5D6E /* AmountFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AmountFormat.swift; sourceTree = "<group>"; };
-		F7A8B9C0D1E2345A6B7C8D9E /* ManageSheets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManageSheets.swift; sourceTree = "<group>"; };
-		FA0D1CF75C53043691762631 /* Pods_330FinluxeBudgetManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_330FinluxeBudgetManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB0D70698A4A29375301211B /* ExpenseEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpenseEditorView.swift; sourceTree = "<group>"; };
 		C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
 		C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
 		C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
@@ -95,6 +84,17 @@
 		C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
 		C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
 		C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		C816752A8DDCC63D1A9F8DA8 /* AppReviewService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppReviewService.swift; sourceTree = "<group>"; };
+		CE1D67CC5A9936E2DB4E53D6 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1E2F3A4B5C60718293D4E5F /* StatsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		D29D25629C5781044391EE20 /* AppDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		D6E7F8A9B0C1234A5B6C7D8E /* FinanceUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FinanceUI.swift; sourceTree = "<group>"; };
+		D8C177FB52C798954F45800A /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAD35DE7ADB3EEC2398D3766 /* TasksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		F4A5B6C7D8E9012A3B4C5D6E /* AmountFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AmountFormat.swift; sourceTree = "<group>"; };
+		F7A8B9C0D1E2345A6B7C8D9E /* ManageSheets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManageSheets.swift; sourceTree = "<group>"; };
+		FA0D1CF75C53043691762631 /* Pods_330FinluxeBudgetManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_330FinluxeBudgetManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0D70698A4A29375301211B /* ExpenseEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpenseEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,24 +146,6 @@
 				C0C000C1A2B3D4E5F6071800 /* LaunchFlow */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		C0C000C1A2B3D4E5F6071800 /* LaunchFlow */ = {
-			isa = PBXGroup;
-			children = (
-				C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */,
-				C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */,
-				C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */,
-				C0A104C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift */,
-				C0A105C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift */,
-				C0A106C1A2B3D4E5F6071806 /* LaunchSessionStore.swift */,
-				C0A107C1A2B3D4E5F6071807 /* LaunchStagingState.swift */,
-				C0A108C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift */,
-				C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */,
-				C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */,
-				C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */,
-			);
-			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		4E7D015686D14803862ABF30 /* Pods */ = {
@@ -233,6 +215,24 @@
 				05FA774A71442C78A2F43929 /* Assets.xcassets */,
 			);
 			path = 330FinluxeBudgetManager;
+			sourceTree = "<group>";
+		};
+		C0C000C1A2B3D4E5F6071800 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C0A101C1A2B3D4E5F6071801 /* CalendarGateEvaluator.swift */,
+				C0A102C1A2B3D4E5F6071802 /* DeferredLaunchCanvas.swift */,
+				C0A103C1A2B3D4E5F6071803 /* LaunchDestination.swift */,
+				C0A104C1A2B3D4E5F6071804 /* LaunchFlowResolver.swift */,
+				C0A105C1A2B3D4E5F6071805 /* LaunchFlowSecrets.swift */,
+				C0A106C1A2B3D4E5F6071806 /* LaunchSessionStore.swift */,
+				C0A107C1A2B3D4E5F6071807 /* LaunchStagingState.swift */,
+				C0A108C1A2B3D4E5F6071808 /* RemoteEntryProbe.swift */,
+				C0A109C1A2B3D4E5F6071809 /* RemoteEntryURLComposer.swift */,
+				C0A110C1A2B3D4E5F6071810 /* RootWindowPresenter.swift */,
+				C0A111C1A2B3D4E5F6071811 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		C328D7947A478935BAAB317F /* Models */ = {
@@ -448,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dem.f1nl8xb8dg;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
@@ -479,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dem.f1nl8xb8dg;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
